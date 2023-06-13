@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Watch YouTube Shorts fully",
+  "description": "Adds button on YouTube Shorts page to watch short video in full window.",
+  "version": "1.0",
+  "author": "Denis Polishchuk",
+  "homepage_url": "https://github.com/denipolis/watch-shorts-fully-extension",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/main.js"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}
