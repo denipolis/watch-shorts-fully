@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Watch YouTube Shorts fully",
-  "description": "Adds button on YouTube Shorts page to watch short video in full window.",
+  "description": "A chrome extension that adds a new button on the Youtube Shorts page that opens the video in a full video player.",
   "version": "1.0",
   "author": "Denis Polishchuk",
   "homepage_url": "https://github.com/denipolis/watch-shorts-fully-extension",
